@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Diffie-Hellman Algorithm </title>
+</head>
+<nav>
+    <img src = "MOSHED_Python_Logo.jpg" ></img><h1>Python Insider</h1>
+    <a href = "Zak_Blog.html" target ="_blank" style = "position:relative; left:0px;"><h2>Home </h2></a>
+    <a href = "About.html" target ="_blank" style = "position:relative; left:0px; top:0px;"><h2>About</h2></a>
+</nav>
+<h1><big>"Why The Diffie-Hellman Algorithm Is still used today?"</big></h1>
+<h3><i>By Zakariya Aden</i></h3>
+<img src="Blog_Image_Banner.jpeg"sizes="(max-width)"><i style = color:gray;><a style="color: white;"><!-- this stuff is just so that that caption reaches middle-->tvyhjuhbjucfgvygyctvyhjuhbju</a>trust me, it's more simple than it sounds</i></img>
+<body>
+
+<h2>What is the <i>DH Algorithm</i>?</h2>
+<p><big>
+    The <i><b>Diffie Hellman Algorithm</b></i> is a <i><b>key exchange proctocol</b></i><i>(more on that later)</i> that  
+    uses <i><b>symmetrical encryption</b></i> to make a shared and encrypted key. This is intergral  
+    to two or more parties to comunicate over public channels without threat of attack  
+    because of the <i><b>DLP</b></i><i>(more on that later too).</i> The amazing part of it all is its crazy  
+    simplicity. No matter what in encryption method you use, you need to have a shared 
+    encrypted key to begin. <i>RSA, Triple DES, AES,</i> it doesn't matter. You need <i>(at less  
+    for the more secure methods)</i> a symmetrical encrypted key. That's what I like about
+    DH. That's why I'm writing this.
+</big></p>
+<hr color = "white" size="2">
+
+<h2>How DH Works <i>Kinda</i></h2>
+<p><big>
+    like I had said, DH is relatively simple. Key Word: <i>relatively.</i> You see, there 
+    is,like many things in life, a "bit" math. But before all that, we need some backgroud.
+    The DH Algorithm was made by Whitfield Diffie and Martin Hellman, then published in 
+    1969 in <i>"New Directions In Cryptography"</i>(Original paper can be download down below). 
+    A <i><b>Key Exchange Proctocol</b></i> (told you we would come back to this) is a method of encrypting 
+    a key that can only computed by how many parties are paricipating. An ouside observer 
+    could know all of the transactions happening but if one specific piece of infomation 
+    (which will be elaborated on further) or more isn't known, they are (for a lack of better 
+    words) eternally screwed. Speaking of eternity, that brings us to the <i><b>DLP</b></i> and 
+    the math of DH.
+</big></p>
+<!--A download button
+It's Offcial, I'm the GOAT-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<button class = "btn" href = "Whit_Diff_Stanford_Paper.pdf"><i class = "fa fa-download" href = "Whit_Diff_Stanford_Paper.pdf">Download</i></button>
+
+<h2>Backgroud On DH</h2>
+<p><big>
+    So onto to the math! For DH, there is a little known branch of arithmetic known as modular 
+    arithmetic. Modular Arithmetic is a system of integers where numbers restart after reaching 
+    a certain value called a modulus. It was formulated by Carl Friedrich Gauss in "Disquisitiones 
+    Arithmeticae." Basically, you have a set value N and every X reach N, it resets. Here's an example
+<hr color="white">
+<img src = "Mod_Example2.png" style = "position:relative; left:500px;">
+<hr color="white">
+I'll explain it. It's simply the remainder. N is 4 and X is 0,1,2,3. But that isn't all.
+It's not secure yet. Because of the modulus N resetting the all the integers less than N, it makes 
+it very hard to compute a average problem (which usually comes out to 1,000 - 2,000 numbers) but 
+it becomes virtually impossible when one or more key pieces of infomation is missing, which is how 
+this next part works.
+<hr color="white">
+<img src = "Mod_Example.png" style = "position:relative; left:500px;">
+<hr color="white">
+</big></p>
+
+<h2>Backgroud On DH</h2>
+<p><big>
+
+</big></p>
+
+</body>
+</html>
