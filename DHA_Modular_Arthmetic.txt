@@ -1,0 +1,11 @@
+Formulas:
+Public key Gen.
+Encrypt key
+
+a* = qa mod p
+
+b* = qb mod p
+
+x = (b*) mod p
+
+x = (a*) mod p

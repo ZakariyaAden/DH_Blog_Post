@@ -1,0 +1,40 @@
+ ______________________________________
+| _____________                        |
+||             | Name: Zakariya Aden   |
+||Cornell Notes| Subject: DH Algorithm |
+||_____________| Date:11/3/22          |
+|______________________________________|
+
+ __________________________________________________________
+|                                                          |
+|EQ:Why is the Diffie-Hellman Algorithm still used today?  |
+|__________________________________________________________|
+
+ _________________________
+|Q:                       |
+|What's the DH Algorithm? |
+|_________________________|
+ _________________________________
+|A:				                  |	
+|				                  |
+|-Key exchange protocol		      |
+|				                  |
+|-allows for two parties 	      |
+|to communicate over 		      |
+|public channels		          |
+|				                  |
+|-uses SYMMETRICAL CRYPTOGRAPY    |
+|to enc. & dec. using a public key|
+|                                 |
+|- published in 1976              |
+|                                 |
+|-made by                         |
+|Whitfield Diffie & Martin Hellman|
+|_________________________________|
+ _________________________________
+|Q:				                  |
+|What is SYMMETRICAL CRYPTOGRAPHY?|
+|_________________________________|
+
+A:
+-Symmetrical
