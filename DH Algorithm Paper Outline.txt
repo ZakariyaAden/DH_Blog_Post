@@ -41,5 +41,7 @@ Second paragraph rough draft
     Fourth paragraph rough draft 
     "    
         How DH Actually Works
-    
+        DH is secure because of the personal key. After choosing the modulus N and one of it's generator G, 
+    both parties (a & b) must pick an element that is coprime to N (their personal key) and make sure that they 
+    keep it to themselves. 
         "
