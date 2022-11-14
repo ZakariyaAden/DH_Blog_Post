@@ -20,6 +20,7 @@
 <h3><i>By Zakariya Aden</i></h3>
 <img src="images/Blog_Image_Banner.jpeg"sizes="(max-width)"></img>
 <p><a>trust me, it's more simple than it sounds</a></p>
+<!--My file path: file:///media/removable/HANDS_OFF/Everything/Software_Projects/Coding/DH_Blog_Assignment/index.html-->
 <body>
 
 <h2>What is the <i>DH Algorithm</i>?</h2>
@@ -78,6 +79,16 @@ this next part works.
     both parties (a & b) must pick an element that is coprime to N (their personal key) and make sure that they 
     keep it to themselves. You must raise a to G and apply N. Let's say N = 7, G = 5, a = 4. It would lile this.
 </big></p>
-<h4>G<sup>a</sup> mod N <big><i>OR</i></big> 5<sup>a</sup> mod 7 </h4>
+<h4>G<sup>a</sup> mod N <big><i>OR</i></big> 5<sup>4</sup> mod 7 </h4>
+<p><big>
+    That comes out to 2 mod 7.  All of this is to calculate your public key. The public key is the number that you 
+    exchange with the second party after they calculate their own public key. For this, we need to calculate the 
+    public key for both parties. We can just reuse N and it's generator, but we have chose a new private key. Let's 
+    go with 3. So N = 7 & G = 5 & b = 2, now it's time to calculate B. 
+</big></p>
+<h4>G<sup>a</sup> mod N <big><i>OR</i></big> 5<sup>2</sup> mod 7 </h4>
+<p><big>
+    And that comes out to 4 mod 7. 
+</big></p>
 </body>
 </html>
