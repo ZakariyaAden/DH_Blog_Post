@@ -12,11 +12,25 @@
         <ul>
             <li><img src = "MOSHED_Python_Logo.jpg" ></img><h1 style = "position: relative; ">Python Insider</h1></li>
             <li><a href = "Zak_Blog.html" target ="_blank" style = "position:relative; left:0px;"><h2>Home </h2></a></li>
+            <li><a href = "About.html" target ="_blank" style = "position:relative; left:0px; top:0p<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Diffie-Hellman Algorithm </title>
+    <link rel = "stylesheet" href = "DH_Algorithm_blog.css"></link>
+</head>
+<nav>
+   <div>
+        <ul>
+            <li><img src = "MOSHED_Python_Logo.jpg" ></img><h1 style = "position: relative; ">Python Insider</h1></li>
+            <li><a href = "Zak_Blog.html" target ="_blank" style = "position:relative; left:0px;"><h2>Home </h2></a></li>
             <li><a href = "About.html" target ="_blank" style = "position:relative; left:0px; top:0px;"><h2>About</h2></a></li>
         </ul>
     </div> 
 </nav>
-<h1><big>"Why The Diffie-Hellman Algorithm Is still used today?"</big></h1>
+<h1><big>"Why The Diffie-Hellman Algorithm Is A Secure Key Exchange Protocol?"</big></h1>
 <h3><i>By Zakariya Aden</i></h3>
 <img src="Blog_Image_Banner.jpeg"sizes="(max-width)"></img>
 <p><a>trust me, it's more simple than it sounds</a></p>
@@ -69,7 +83,7 @@ it very hard to compute a average problem (which usually comes out to 1,000 - 2,
 it becomes virtually impossible when one or more key pieces of infomation is missing, which is how 
 this next part works.
 <hr color="#dddddd">
-<img src = "Mod_Example.png" style = "position:relative; left:500px;">
+<img src = "images/Mod_Example.png" style = "position:relative; left:500px;">
 <hr color="#dddddd">
 </big></p>
 
@@ -81,14 +95,22 @@ this next part works.
 </big></p>
 <h4>G<sup>a</sup> mod N <big><i>OR</i></big> 5<sup>4</sup> mod 7 </h4>
 <p><big>
-    That comes out to 2 mod 7.  All of this is to calculate your public key. The public key is the number that you 
+    That comes out to 2 mod 7. A = 2. All of this is to calculate your public key. The public key is the number that you 
     exchange with the second party after they calculate their own public key. For this, we need to calculate the 
     public key for both parties. We can just reuse N and it's generator, but we have chose a new private key. Let's 
-    go with 3. So N = 7 & G = 5 & b = 2, now it's time to calculate B. 
+    go with 2. So N = 7 & G = 5 & b = 2, now it's time to calculate B. 
 </big></p>
-<h4>G<sup>a</sup> mod N <big><i>OR</i></big> 5<sup>2</sup> mod 7 </h4>
+<h4>G<sup>b</sup> mod N <b><i>OR</i></b> 5<sup>2</sup> mod 7 </h4>
 <p><big>
-    And that comes out to 4 mod 7. That means B = 4. Now that we have both public keys 
+    And that comes out to 4 mod 7. That means B = 4. Now that we have both public keys, we will use a second formula 
+    to calculate the final newly encrypted key, X. If you calculate them both, they should be the same. First, we 
+    calculate a, then b.
+</big></p>
+<h4>X = B<sup>a</sup> mod N <b><i>OR</i></b> X = 4<sup>4</sup> mod 7 </h4>
+<h4>Y = A<sup>b</sup> mod N <b><i>OR</i></b> X = 2<sup>2</sup> mod 7 </h4>
+<p><big>
+    These both equal 4! Without knowing the private key, infomation has been encrypted. Now that you have your encrypted
+    key, you can use it to symmetrical encrypt and decrypt your channels. Here's a video that further explaines the math.
 </big></p>
 <iframe src="https://www.youtube.com/embed/watch?v=ESPT_36pUFc" frameborder="0"></iframe>
 </body>
