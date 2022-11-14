@@ -1,15 +1,19 @@
-
-nav {
-    background-color: white;
-    margin-left: 0%;
-    margin-right: 20%;
+  nav {
+    background-color: #dddd;
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 3000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-style: dotted;
     border-width: thick;
     border-color: black;
     border-radius: 0%;
+    position: sticky;
   }
-body {
-    background-color: black;
+
+  body {
+    background-color: #dddd;
   }
   
   h1 {
@@ -18,14 +22,50 @@ body {
   }
   
   p {
-    color: white;
+    color: black;
+
+  }
+  a {
+    padding-top: 10px;
+    margin-left: 400px;
   }
   a:link {
     color: navy;
   }
+
   a:visited {
     color: aqua;
   }
+
   a:hover {
     color: aqua;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  li {
+    float: none;
+    display: block;
+    padding: 10px;
+    background-color: #dddddd;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  img {
+    position: center;
+    overflow: scroll;
+  }
+
+  div {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  left: 0px;
   }
