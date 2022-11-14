@@ -8,13 +8,18 @@
     <link rel = "stylesheet" href = "DH_Algorithm_blog.css"></link>
 </head>
 <nav>
-    <img src = "MOSHED_Python_Logo.jpg" ></img><h1>Python Insider</h1>
-    <a href = "Zak_Blog.html" target ="_blank" style = "position:relative; left:0px;"><h2>Home </h2></a>
-    <a href = "About.html" target ="_blank" style = "position:relative; left:0px; top:0px;"><h2>About</h2></a>
+   <div>
+        <ul>
+            <li><img src = "images/MOSHED_Python_Logo.jpg" ></img><h1 style = "position: relative; ">Python Insider</h1></li>
+            <li><a href = "Zak_Blog.html" target ="_blank" style = "position:relative; left:0px;"><h2>Home </h2></a></li>
+            <li><a href = "About.html" target ="_blank" style = "position:relative; left:0px; top:0px;"><h2>About</h2></a></li>
+        </ul>
+    </div> 
 </nav>
 <h1><big>"Why The Diffie-Hellman Algorithm Is still used today?"</big></h1>
 <h3><i>By Zakariya Aden</i></h3>
-<img src="Blog_Image_Banner.jpeg"sizes="(max-width)"><i style = color:gray;><a style="color: white;"><!-- this stuff is just so that that caption reaches middle-->tvyhjuhbjucfgvygyctvyhjuhbju</a>trust me, it's more simple than it sounds</i></img>
+<img src="images/Blog_Image_Banner.jpeg"sizes="(max-width)"></img>
+<p><a>trust me, it's more simple than it sounds</a></p>
 <body>
 
 <h2>What is the <i>DH Algorithm</i>?</h2>
@@ -28,7 +33,7 @@
     for the more secure methods)</i> a symmetrical encrypted key. That's what I like about
     DH. That's why I'm writing this.
 </big></p>
-<hr color = "white" size="2">
+<hr color = "#dddddd" size="2">
 
 <h2>How DH Works <i>Kinda</i></h2>
 <p><big>
@@ -48,24 +53,23 @@ It's Offcial, I'm the GOAT-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <button class = "btn" href = "Whit_Diff_Stanford_Paper.pdf"><i class = "fa fa-download" href = "Whit_Diff_Stanford_Paper.pdf">Download</i></button>
 
-
 <h2>Backgroud On DH</h2>
 <p><big>
-    So onto to the math! For DH, there is a little known branch of arithmetic known as modular
-    arithmetic. Modular Arithmetic is a system of integers where numbers restart after reaching
-    a certain value called a modulus. It was formulated by Carl Friedrich Gauss in "Disquisitiones
+    So onto to the math! For DH, there is a little known branch of arithmetic known as modular 
+    arithmetic. Modular Arithmetic is a system of integers where numbers restart after reaching 
+    a certain value called a modulus. It was formulated by Carl Friedrich Gauss in "Disquisitiones 
     Arithmeticae." Basically, you have a set value N and every X reach N, it resets. Here's an example
-<hr color="white">
-<img src = "Mod_Example2.png" style = "position:relative; left:500px;">
-<hr color="white">
+<hr color="#dddddd">
+<img src = "images/Mod_Example2.png" style = "position:relative; left:500px;">
+<hr color="#dddddd">
 I'll explain it. It's simply the remainder. N is 4 and X is 0,1,2,3. But that isn't all.
-It's not secure yet. Because of the modulus N resetting the all the integers less than N, it makes
-it very hard to compute a average problem (which usually comes out to 1,000 - 2,000 numbers) but
-it becomes virtually impossible when one or more key pieces of infomation is missing, which is how
+It's not secure yet. Because of the modulus N resetting the all the integers less than N, it makes 
+it very hard to compute a average problem (which usually comes out to 1,000 - 2,000 numbers) but 
+it becomes virtually impossible when one or more key pieces of infomation is missing, which is how 
 this next part works.
-<hr color="white">
-<img src = "Mod_Example.png" style = "position:relative; left:500px;">
-<hr color="white">
+<hr color="#dddddd">
+<img src = "images/Mod_Example.png" style = "position:relative; left:500px;">
+<hr color="#dddddd">
 </big></p>
 
 <h2>DH Formulas</h2>
