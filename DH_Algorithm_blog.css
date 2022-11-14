@@ -12,6 +12,10 @@
     position: sticky;
   }
 
+  iframe {
+    outline: navy;
+  }
+
   body {
     background-color: #dddd;
   }
