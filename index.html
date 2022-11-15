@@ -12,20 +12,6 @@
         <ul>
             <li><img src = "MOSHED_Python_Logo.jpg" ></img><h1 style = "position: relative; ">Python Insider</h1></li>
             <li><a href = "Zak_Blog.html" target ="_blank" style = "position:relative; left:0px;"><h2>Home </h2></a></li>
-            <li><a href = "About.html" target ="_blank" style = "position:relative; left:0px; top:0p<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Diffie-Hellman Algorithm </title>
-    <link rel = "stylesheet" href = "DH_Algorithm_blog.css"></link>
-</head>
-<nav>
-   <div>
-        <ul>
-            <li><img src = "MOSHED_Python_Logo.jpg" ></img><h1 style = "position: relative; ">Python Insider</h1></li>
-            <li><a href = "Zak_Blog.html" target ="_blank" style = "position:relative; left:0px;"><h2>Home </h2></a></li>
             <li><a href = "About.html" target ="_blank" style = "position:relative; left:0px; top:0px;"><h2>About</h2></a></li>
         </ul>
     </div> 
@@ -83,7 +69,7 @@ it very hard to compute a average problem (which usually comes out to 1,000 - 2,
 it becomes virtually impossible when one or more key pieces of infomation is missing, which is how 
 this next part works.
 <hr color="#dddddd">
-<img src = "images/Mod_Example.png" style = "position:relative; left:500px;">
+<img src = "Mod_Example.png" style = "position:relative; left:500px;">
 <hr color="#dddddd">
 </big></p>
 
@@ -110,8 +96,19 @@ this next part works.
 <h4>Y = A<sup>b</sup> mod N <b><i>OR</i></b> X = 2<sup>2</sup> mod 7 </h4>
 <p><big>
     These both equal 4! Without knowing the private key, infomation has been encrypted. Now that you have your encrypted
-    key, you can use it to symmetrical encrypt and decrypt your channels. Here's a video that further explaines the math.
+    key, you can use it to symmetrical encrypt and decrypt your channels. And the only piece of info you have to keep safe 
+    is your private key bescause modular arithmetic is hard. That called the Distant Logic Problem(DLP).Here's a video that 
+    further explaines the math.
 </big></p>
-<iframe src="https://www.youtube.com/embed/watch?v=ESPT_36pUFc" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/watch?v=ESPT_36pUFc" size = "max-width frameborder="0"></iframe>
+<hr style="color: #dddd;">
+<h2>Conclusion</h2>
+<p><big>
+    In conclusion, We learned about modular arithmetic and moduluses. We also learned about the formulas that make up the 
+    DH Algorithm. Now to the heart of the issue, Why The Diffie-Hellman Algorithm Is A Secure Key Exchange Protocol? Yes. 
+    Becauseof the DLP, you can send the public keys over public channels and the threat of hacking. Thank you for reading 
+    and have a good day!
+</big></p>
+<hr style="color: #dddd;">
 </body>
 </html>
